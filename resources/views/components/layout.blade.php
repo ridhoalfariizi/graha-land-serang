@@ -7,9 +7,20 @@
         <title>@yield('title', $settings['seo_title'] ?? 'Graha Land Serang')</title>
     <meta name="description" content="@yield('meta_description', $settings['seo_description'] ?? 'Sistem Perumahan Mewah Graha Land Serang')">
     <meta name="keywords" content="@yield('meta_keywords', 'perumahan serang, rumah murah banten, graha land')">
+    <!-- Open Graph (WhatsApp, Facebook) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:title" content="@yield('title', $settings['seo_title'] ?? 'Graha Land Serang')">
     <meta property="og:description" content="@yield('meta_description', $settings['seo_description'] ?? 'Sistem Perumahan Mewah Graha Land Serang')">
-    <meta property="og:image" content="@yield('og_image', asset('images/logo/logo graha land.webp'))">
+    <meta property="og:image" content="@yield('og_image', asset('images/desain rumah/gambar 1.jpeg'))">
+    <meta property="og:image:type" content="image/jpeg">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ url()->current() }}">
+    <meta name="twitter:title" content="@yield('title', $settings['seo_title'] ?? 'Graha Land Serang')">
+    <meta name="twitter:description" content="@yield('meta_description', $settings['seo_description'] ?? 'Sistem Perumahan Mewah Graha Land Serang')">
+    <meta name="twitter:image" content="@yield('og_image', asset('images/desain rumah/gambar 1.jpeg'))">
     
     <!-- GTM Analytics Dummy -->
     @if(isset($settings['ga_tracking_id']) && $settings['ga_tracking_id'])
