@@ -5,6 +5,13 @@ use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\DashboardController;
 
+// Deployment Quick Setup (Akan dihapus setelah diakses)
+Route::get('/init-db-77', function () {
+    \Illuminate\Support\Facades\Artisan::call('migrate', ['--force' => true]);
+    \Illuminate\Support\Facades\Artisan::call('db:seed', ['--force' => true]);
+    return 'Database Berhasil Disetup (Tabel & Akun Admin Terbuat)! Silakan <a href="/admin/login">Klik di sini untuk Login</a> menggunakan admin@ptbanaciptagraha.com / password';
+});
+
 // Frontend Routes
 Route::get('/', [FrontendController::class, 'index'])->name('home');
 Route::get('/tentang-kami', [FrontendController::class, 'about'])->name('about');
