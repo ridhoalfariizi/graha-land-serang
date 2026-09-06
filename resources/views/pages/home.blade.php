@@ -47,7 +47,7 @@
             Terbaik di Kelasnya
         </span>
         <h1 class="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-8 leading-tight tracking-tight">
-            Hunian <span class="text-primary relative inline-block">Mewah Modern<svg class="absolute w-full h-3 -bottom-1 left-0 text-accent" fill="currentColor" preserveAspectRatio="none" viewBox="0 0 100 10"><path d="M0,5 Q50,15 100,5 L100,10 L0,10 Z"></path></svg></span> Bernuansa Eropa di Kota Serang
+            Hunian <span class="text-primary relative inline-block">Asri Mewah Modern<svg class="absolute w-full h-3 -bottom-1 left-0 text-accent" fill="currentColor" preserveAspectRatio="none" viewBox="0 0 100 10"><path d="M0,5 Q50,15 100,5 L100,10 L0,10 Z"></path></svg></span> di Kota Serang
         </h1>
         <p class="text-lg md:text-xl text-slate-300 font-medium mb-12 max-w-3xl mx-auto leading-relaxed">
             Miliki rumah impian dengan lokasi strategis, lingkungan nyaman, dan harga terjangkau bagi keluarga masa kini. Dapatkan unit eksklusif Anda sebelum kehabisan!
