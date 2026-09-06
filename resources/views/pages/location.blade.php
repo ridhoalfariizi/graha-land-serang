@@ -2,8 +2,9 @@
 @section('title', 'Lokasi Proyek - Graha Land Serang')
 
 @section('content')
-<div class="bg-secondary pt-32 pb-16">
-    <div class="max-w-7xl mx-auto px-4 xl:px-8 text-left text-white">
+<div class="bg-secondary pt-32 pb-16 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070')] opacity-10 bg-cover bg-center"></div>
+<div class="max-w-7xl mx-auto px-4 xl:px-8 text-left text-white">
         <div class="flex flex-wrap items-center text-sm font-bold text-slate-400 mb-10 space-x-2">
             <a href="{{ route('home') }}" class="hover:text-white transition">Beranda</a>
             <span>/</span>

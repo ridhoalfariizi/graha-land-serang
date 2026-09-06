@@ -3,7 +3,8 @@
 
 @section('content')
 <div class="bg-secondary pt-32 pb-24 relative overflow-hidden">
-    <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070')] opacity-10 bg-cover bg-center"></div>
+<div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
     <div class="absolute top-0 right-0 w-96 h-96 bg-primary/20 blur-[100px] rounded-full translate-x-1/2 -translate-y-1/2"></div>
     <div class="max-w-7xl mx-auto px-4 xl:px-8 relative z-10 text-left text-white">
         <div class="flex flex-wrap items-center text-sm font-bold text-slate-400 mb-10 space-x-2">
