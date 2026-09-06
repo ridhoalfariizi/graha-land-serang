@@ -56,7 +56,9 @@
             <div class="flex justify-between items-center h-20">
                 <!-- Logo -->
                 <a href="{{ route('home') }}" class="flex-shrink-0 flex items-center gap-2">
-                    <img src="{{ asset('images/logo/logo graha land serang.png') }}" alt="Graha Land Logo" :class="scrolled ? '' : 'brightness-0 invert'" class="h-10 md:h-12 w-auto object-contain drop-shadow-md transition-all duration-300">
+                    <div :class="scrolled ? '' : 'bg-white/95 shadow-lg px-4 py-1.5 rounded-2xl'" class="transition-all duration-300">
+                        <img src="{{ asset('images/logo/logo graha land serang.png') }}" alt="Graha Land Logo" class="h-10 md:h-12 w-auto object-contain mix-blend-multiply drop-shadow-sm transition-all duration-300">
+                    </div>
                 </a>
 
                 <!-- Desktop Menu -->
@@ -137,8 +139,8 @@
                 <!-- Col 1: Brand, About & Social Media -->
                 <div>
                     <a href="{{ route('home') }}" class="inline-block mb-6 group">
-                        <div class="bg-white/95 p-3 px-6 rounded-2xl drop-shadow-lg group-hover:scale-105 transition-transform duration-300 inline-flex">
-                            <img src="{{ asset('images/logo/logo graha land serang.png') }}" alt="Graha Land Logo" class="h-10 md:h-12 w-auto object-contain">
+                        <div class="bg-white p-3 px-6 rounded-2xl drop-shadow-lg group-hover:scale-105 transition-transform duration-300 inline-flex">
+                            <img src="{{ asset('images/logo/logo graha land serang.png') }}" alt="Graha Land Logo" class="h-10 md:h-12 w-auto object-contain mix-blend-multiply">
                         </div>
                     </a>
                     <p class="text-white/80 leading-relaxed text-[14px] mb-8 font-medium">
