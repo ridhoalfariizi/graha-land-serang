@@ -142,7 +142,7 @@
                         </div>
                     </a>
                     <p class="text-white/80 leading-relaxed text-[14px] mb-8 font-medium">
-                        Menghadirkan kawasan hunian asri bernuansa khas Eropa pertama di Kota Serang. Terpadu dengan fasilitas lengkap dan keamanan <i>One Gate System</i>.
+                        Menghadirkan kawasan hunian asri Mewah dan Modern di Kota Serang. Terpadu dengan fasilitas lengkap dan keamanan <i>One Gate System</i>.
                     </p>
                     <div class="flex items-center gap-3">
                         <!-- Facebook -->
