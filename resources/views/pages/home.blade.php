@@ -99,7 +99,7 @@
         <div class="text-center max-w-3xl mx-auto mb-16">
             <span class="text-primary font-bold uppercase tracking-widest text-sm mb-4 block">Unit Eksklusif</span>
             <h2 class="text-4xl md:text-5xl font-black text-secondary mb-6 leading-tight">Pilihan Tipe Rumah Terbaik</h2>
-            <p class="text-lg text-slate-500">Mulai dari unit subsidi merakyat hinga rumah komersil dua lantai, kami menyediakan rumah yang pas untuk dinamika keluarga Anda.</p>
+            <p class="text-lg text-slate-500">Kami menyediakan hunian subsidi yang pas, terjangkau, dan nyaman untuk dinamika masa depan keluarga Anda.</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

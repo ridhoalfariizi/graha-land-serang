@@ -18,7 +18,7 @@
         </div>
         <h1 class="text-4xl md:text-5xl lg:text-7xl font-black mb-4 tracking-tight drop-shadow-md">Pilihan Tipe Rumah</h1>
         <p class="text-slate-400 text-base md:text-lg max-w-2xl">
-            Temukan hunian yang sempurna untuk keluarga Anda. Mulai dari hunian subsidi hingga cluster komersial mewah.
+            Temukan hunian subsidi yang sempurna, terjangkau, dan berkualitas untuk pondasi awal kehidupan keluarga Anda.
         </p>
     </div>
 </div>
