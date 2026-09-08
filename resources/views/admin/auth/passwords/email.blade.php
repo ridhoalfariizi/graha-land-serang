@@ -21,7 +21,7 @@
                 <h2 class="text-6xl font-extrabold text-white/30 uppercase tracking-widest leading-none">Recover</h2>
             </div>
             <div class="relative z-10 flex-1 flex flex-col justify-center items-center px-12 md:pl-20 md:pr-10">
-                <img src="/storage/artifacts/admin_login_illustration.webp" alt="Dashboard" class="w-full max-w-[240px] drop-shadow-xl mix-blend-multiply" onerror="this.src='{{ asset('images/logo/logo graha land.webp') }}'; this.classList.remove('mix-blend-multiply'); this.classList.add('brightness-0', 'invert');">
+                <img src="/storage/artifacts/admin_login_illustration.webp" alt="Dashboard" class="w-full max-w-[240px] drop-shadow-xl mix-blend-multiply" onerror="this.src='{{ asset('images/logo/logo graha land serang.webp') }}'; this.classList.remove('mix-blend-multiply'); this.classList.add('brightness-0', 'invert');">
             </div>
             <div class="relative z-10 mt-8 text-left pl-8 border-l-2 border-white/30">
                 <p class="text-[10px] uppercase tracking-[0.2em] font-bold text-white/90">Introducing Graha Land</p>

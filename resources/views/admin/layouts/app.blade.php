@@ -11,7 +11,7 @@
     <!-- Sidebar -->
     <aside class="w-72 bg-gradient-to-b from-[#3F6A1F] to-[#5E8E2E] text-slate-100 min-h-screen flex flex-col shadow-2xl relative z-20 print:hidden">
         <div class="h-20 flex items-center justify-center px-4 border-b border-white/10 shrink-0">
-            <img src="{{ asset('images/logo/logo graha land.webp') }}" alt="Graha Land" class="h-10 w-auto object-contain brightness-0 invert drop-shadow">
+            <img src="{{ asset('images/logo/logo graha land serang.webp') }}" alt="Graha Land" class="h-10 w-auto object-contain brightness-0 invert drop-shadow">
         </div>
         
         <nav class="flex-1 px-4 py-6 space-y-1 overflow-y-auto">

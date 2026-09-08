@@ -29,7 +29,7 @@
             <!-- Content Container -->
             <div class="relative z-10 flex-1 flex flex-col justify-center items-center px-12">
                 <!-- Replace src below with generated illustration -->
-                <img src="/storage/artifacts/admin_login_illustration.webp" alt="Dashboard Illustration" class="w-full max-w-[280px] drop-shadow-2xl hover:scale-105 transition-transform duration-700 ease-in-out" onerror="this.src='{{ asset('images/logo/logo graha land.webp') }}'; this.classList.add('brightness-0', 'invert');">
+                <img src="/storage/artifacts/admin_login_illustration.webp" alt="Dashboard Illustration" class="w-full max-w-[280px] drop-shadow-2xl hover:scale-105 transition-transform duration-700 ease-in-out" onerror="this.src='{{ asset('images/logo/logo graha land serang.webp') }}'; this.classList.add('brightness-0', 'invert');">
             </div>
 
             <div class="relative z-10 mt-8 text-center px-8 border-l border-white/20">
