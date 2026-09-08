@@ -215,12 +215,12 @@
                 <!-- Col 4: Developers & CTA -->
                 <div>
                     <h3 class="text-lg font-bold text-white mb-6 uppercase tracking-wider">Dikembangkan Oleh</h3>
-                    <div class="flex items-center gap-3 sm:gap-6 bg-white rounded-2xl p-3 sm:px-6 w-fit shadow-xl mx-auto md:mx-0">
-                        <img src="{{ asset('images/logo/logo pt bana cipta graha.webp') }}" alt="PT Bana Cipta Graha" class="h-6 sm:h-10 w-auto object-contain drop-shadow-sm hover:scale-105 transition-transform">
-                        <div class="h-6 sm:h-8 w-px bg-slate-200"></div>
-                        <img src="{{ asset('images/logo/logo bumi tata nusantaraa.webp') }}" alt="PT Bumi Tata Nusantara" class="h-5 sm:h-8 w-auto object-contain drop-shadow-sm hover:scale-105 transition-transform">
-                        <div class="h-6 sm:h-8 w-px bg-slate-200"></div>
-                        <img src="{{ asset('images/logo/logo graha land.webp') }}" alt="Graha Land" class="h-5 sm:h-8 w-auto object-contain drop-shadow-sm hover:scale-105 transition-transform">
+                    <div class="flex items-center justify-center gap-2 sm:gap-4 bg-white rounded-2xl p-3 sm:px-5 w-full sm:w-fit max-w-full mx-auto md:mx-0 shadow-xl overflow-hidden">
+                        <img src="{{ asset('images/logo/logo pt bana cipta graha.webp') }}" alt="PT Bana Cipta Graha" class="flex-1 min-w-0 w-full h-8 sm:h-12 object-contain drop-shadow-sm hover:scale-105 transition-transform">
+                        <div class="shrink-0 h-6 sm:h-8 w-px bg-slate-200"></div>
+                        <img src="{{ asset('images/logo/logo bumi tata nusantaraa.webp') }}" alt="PT Bumi Tata Nusantara" class="flex-1 min-w-0 w-full h-7 sm:h-10 object-contain drop-shadow-sm hover:scale-105 transition-transform">
+                        <div class="shrink-0 h-6 sm:h-8 w-px bg-slate-200"></div>
+                        <img src="{{ asset('images/logo/logo graha land.webp') }}" alt="Graha Land" class="flex-1 min-w-0 w-full h-7 sm:h-10 object-contain drop-shadow-sm hover:scale-105 transition-transform">
                     </div>
                     
                     <a href="https://wa.me/62{{ ltrim($settings['contact_phone'] ?? '85947418388', '0') }}?text=Halo%20Admin%20Graha%20Land,%20saya%20ingin%20info%20lebih%20lanjut" target="_blank" class="w-full py-4 text-center bg-[#25D366] text-white rounded-xl font-bold uppercase tracking-widest text-[13px] hover:bg-white hover:text-[#128C7E] transition-colors duration-300 shadow-xl shadow-[#25D366]/20 block mt-8">
