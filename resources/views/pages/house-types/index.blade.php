@@ -7,17 +7,17 @@
 <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
     <div class="absolute top-0 right-0 w-96 h-96 bg-primary/20 blur-[100px] rounded-full translate-x-1/2 -translate-y-1/2"></div>
     <div class="max-w-7xl mx-auto px-4 xl:px-8 relative z-10 text-left text-white">
-        <div class="flex flex-wrap items-center text-sm font-bold text-slate-400 mb-10 space-x-2">
+        <div class="flex flex-wrap items-center text-sm font-bold text-white/70 mb-10 space-x-2">
             <a href="{{ route('home') }}" class="hover:text-white transition">Beranda</a>
             <span>/</span>
-            <span class="text-primary">Tipe Rumah</span>
+            <span class="text-white font-black drop-shadow-sm">Tipe Rumah</span>
         </div>
         
         <div class="mb-5">
-            <span class="bg-primary/20 border border-primary text-primary font-bold text-xs md:text-sm px-4 py-1.5 rounded-full uppercase tracking-wider">Katalog Unit</span>
+            <span class="bg-white/20 border border-white/40 text-white shadow-sm font-bold text-xs md:text-sm px-4 py-1.5 rounded-full uppercase tracking-wider">Katalog Unit</span>
         </div>
         <h1 class="text-4xl md:text-5xl lg:text-7xl font-black mb-4 tracking-tight drop-shadow-md">Pilihan Tipe Rumah</h1>
-        <p class="text-slate-400 text-base md:text-lg max-w-2xl">
+        <p class="text-white/90 text-base md:text-lg max-w-2xl drop-shadow-sm">
             Temukan hunian subsidi yang sempurna, terjangkau, dan berkualitas untuk pondasi awal kehidupan keluarga Anda.
         </p>
     </div>

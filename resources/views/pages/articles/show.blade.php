@@ -15,16 +15,16 @@
         <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070')] opacity-10 bg-cover bg-center"></div>
 <div class="max-w-7xl mx-auto px-4 xl:px-8 text-left text-white">
         <!-- Breadcrumb -->
-        <div class="flex flex-wrap items-center text-sm font-bold text-slate-400 mb-10 space-x-2">
+        <div class="flex flex-wrap items-center text-sm font-bold text-white/70 mb-10 space-x-2">
             <a href="{{ route('home') }}" class="hover:text-white transition">Beranda</a>
             <span>/</span>
             <a href="{{ route('articles') }}" class="hover:text-white transition">Berita</a>
             <span>/</span>
-            <span class="text-primary">{{ $article->category ?? 'Umum' }}</span>
+            <span class="text-white font-black drop-shadow-sm">{{ $article->category ?? 'Umum' }}</span>
         </div>
         
         <div class="mb-5">
-            <span class="bg-primary/20 border border-primary text-primary font-bold text-xs md:text-sm px-4 py-1.5 rounded-full uppercase tracking-wider">{{ $article->category ?? 'Informasi' }}</span>
+            <span class="bg-white/20 border border-white/40 text-white shadow-sm font-bold text-xs md:text-sm px-4 py-1.5 rounded-full uppercase tracking-wider">{{ $article->category ?? 'Informasi' }}</span>
         </div>
         <h1 class="text-4xl md:text-5xl lg:text-7xl font-black mb-4 tracking-tight drop-shadow-md leading-tight">{{ $article->title }}</h1>
         
@@ -90,7 +90,7 @@
                 </div>
                 <div class="p-8 flex-1">
                     <span class="text-primary font-bold text-xs uppercase tracking-widest mb-3 block">{{ $related->published_at->format('d M Y') }}</span>
-                    <h4 class="text-xl font-black text-secondary group-hover:text-primary transition duration-300 leading-snug">{{ $related->title }}</h4>
+                    <h4 class="text-xl font-black text-secondary group-hover:text-white transition duration-300 leading-snug">{{ $related->title }}</h4>
                 </div>
             </a>
             @endforeach

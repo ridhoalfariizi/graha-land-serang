@@ -79,7 +79,7 @@
                     <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                 </div>
                 <div>
-                    <h3 class="text-sm md:text-base font-black text-secondary group-hover:text-primary transition-colors">{{ $promo->title }}</h3>
+                    <h3 class="text-sm md:text-base font-black text-secondary group-hover:text-white transition-colors">{{ $promo->title }}</h3>
                     @if($promo->description)
                         <p class="text-xs text-slate-500 mt-1 hidden xl:block">{{ $promo->description }}</p>
                     @endif
@@ -414,7 +414,7 @@
                         <div class="w-14 h-14 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 text-primary shadow-inner flex items-center justify-center font-black text-xl border border-primary/20">{{ substr($testi->name, 0, 1) }}</div>
                         @endif
                         <div>
-                            <h4 class="font-bold text-secondary text-lg group-hover:text-primary transition-colors">{{ $testi->name }}</h4>
+                            <h4 class="font-bold text-secondary text-lg group-hover:text-white transition-colors">{{ $testi->name }}</h4>
                             <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">{{ $testi->profession ?? 'Warga Graha Land' }}</span>
                         </div>
                     </div>
@@ -449,7 +449,7 @@
                     </div>
                     <div class="p-6">
                         <span class="text-primary font-bold text-xs uppercase mb-3 block">{{ $article->published_at->format('d M Y') }}</span>
-                        <h3 class="text-xl font-black text-secondary mb-3 group-hover:text-primary transition">{{ $article->title }}</h3>
+                        <h3 class="text-xl font-black text-secondary mb-3 group-hover:text-white transition">{{ $article->title }}</h3>
                         <p class="text-slate-500 text-sm line-clamp-3">{{ strip_tags($article->content) }}</p>
                     </div>
                 </a>

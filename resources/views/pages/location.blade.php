@@ -5,17 +5,17 @@
 <div class="bg-secondary pt-32 pb-16 relative overflow-hidden">
         <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070')] opacity-10 bg-cover bg-center"></div>
 <div class="max-w-7xl mx-auto px-4 xl:px-8 text-left text-white">
-        <div class="flex flex-wrap items-center text-sm font-bold text-slate-400 mb-10 space-x-2">
+        <div class="flex flex-wrap items-center text-sm font-bold text-white/70 mb-10 space-x-2">
             <a href="{{ route('home') }}" class="hover:text-white transition">Beranda</a>
             <span>/</span>
-            <span class="text-primary">Lokasi & Akses</span>
+            <span class="text-white font-black drop-shadow-sm">Lokasi & Akses</span>
         </div>
         
         <div class="mb-5">
-            <span class="bg-primary/20 border border-primary text-primary font-bold text-xs md:text-sm px-4 py-1.5 rounded-full uppercase tracking-wider">Akses Sentral</span>
+            <span class="bg-white/20 border border-white/40 text-white shadow-sm font-bold text-xs md:text-sm px-4 py-1.5 rounded-full uppercase tracking-wider">Akses Sentral</span>
         </div>
         <h1 class="text-4xl md:text-5xl lg:text-7xl font-black mb-4 tracking-tight drop-shadow-md">Lokasi Sangat Strategis</h1>
-        <p class="text-slate-400 text-base md:text-lg max-w-2xl">Terletak di jantung mobilitas Kota Serang. Memastikan nilai investasi Anda terus naik secara konsisten setiap tahunnya dan mempermudah segala urusan rutinitas kehidupan keluarga Anda.</p>
+        <p class="text-white/90 text-base md:text-lg max-w-2xl drop-shadow-sm">Terletak di jantung mobilitas Kota Serang. Memastikan nilai investasi Anda terus naik secara konsisten setiap tahunnya dan mempermudah segala urusan rutinitas kehidupan keluarga Anda.</p>
     </div>
 </div>
 
@@ -50,10 +50,10 @@
                     @if(!empty($settings['nearby_places']))
                         @foreach($settings['nearby_places'] as $place)
                         <div class="flex items-center p-4 bg-white rounded-2xl shadow-sm border border-slate-100 hover:-translate-y-1 hover:shadow-md hover:border-primary/30 transition duration-300 relative z-10 group">
-                            <div class="w-12 h-12 rounded-xl bg-slate-50 text-slate-400 group-hover:bg-primary/10 group-hover:text-primary transition-colors flex items-center justify-center shrink-0 border border-slate-100 mr-5">
+                            <div class="w-12 h-12 rounded-xl bg-slate-50 text-slate-400 group-hover:bg-primary/10 group-hover:text-white transition-colors flex items-center justify-center shrink-0 border border-slate-100 mr-5">
                                 <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                             </div>
-                            <span class="text-base lg:text-lg font-bold text-secondary group-hover:text-primary transition-colors flex-1">{{ $place }}</span>
+                            <span class="text-base lg:text-lg font-bold text-secondary group-hover:text-white transition-colors flex-1">{{ $place }}</span>
                         </div>
                         @endforeach
                     @else

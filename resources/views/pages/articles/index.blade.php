@@ -5,17 +5,17 @@
 <div class="bg-secondary pt-32 pb-16 relative overflow-hidden">
         <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070')] opacity-10 bg-cover bg-center"></div>
 <div class="max-w-7xl mx-auto px-4 xl:px-8 text-left text-white">
-        <div class="flex flex-wrap items-center text-sm font-bold text-slate-400 mb-10 space-x-2">
+        <div class="flex flex-wrap items-center text-sm font-bold text-white/70 mb-10 space-x-2">
             <a href="{{ route('home') }}" class="hover:text-white transition">Beranda</a>
             <span>/</span>
-            <span class="text-primary">Artikel</span>
+            <span class="text-white font-black drop-shadow-sm">Artikel</span>
         </div>
         
         <div class="mb-5">
-            <span class="bg-primary/20 border border-primary text-primary font-bold text-xs md:text-sm px-4 py-1.5 rounded-full uppercase tracking-wider">Artikel Properti</span>
+            <span class="bg-white/20 border border-white/40 text-white shadow-sm font-bold text-xs md:text-sm px-4 py-1.5 rounded-full uppercase tracking-wider">Artikel Properti</span>
         </div>
         <h1 class="text-4xl md:text-5xl lg:text-7xl font-black mb-4 tracking-tight drop-shadow-md">Portal Informasi Properti</h1>
-        <p class="text-slate-400 text-base md:text-lg max-w-2xl">Update progres pembangunan, tips mendesain interior, pemahaman seputar KPR, serta warta penawaran menarik hunian idaman di Graha Land Serang.</p>
+        <p class="text-white/90 text-base md:text-lg max-w-2xl drop-shadow-sm">Update progres pembangunan, tips mendesain interior, pemahaman seputar KPR, serta warta penawaran menarik hunian idaman di Graha Land Serang.</p>
     </div>
 </div>
 
@@ -62,7 +62,7 @@
                         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                         {{ $article->published_at->format('d M Y') }}
                     </span>
-                    <h3 class="text-2xl font-black text-secondary mb-4 leading-tight group-hover:text-primary transition duration-300">{{ $article->title }}</h3>
+                    <h3 class="text-2xl font-black text-secondary mb-4 leading-tight group-hover:text-white transition duration-300">{{ $article->title }}</h3>
                     <p class="text-slate-500 line-clamp-3 mb-6 flex-1">{{ strip_tags($article->content) }}</p>
                     <div class="border-t border-slate-100 pt-6 flex justify-end items-center text-sm font-bold text-slate-400">
                         <span class="text-primary group-hover:underline inline-flex items-center gap-1 group-hover:pl-2 transition-all">Baca Selanjutnya &rarr;</span>

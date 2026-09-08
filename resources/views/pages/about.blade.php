@@ -5,17 +5,17 @@
 <div class="bg-secondary pt-32 pb-16 relative overflow-hidden">
         <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070')] opacity-10 bg-cover bg-center"></div>
 <div class="max-w-7xl mx-auto px-4 xl:px-8 text-left text-white">
-        <div class="flex flex-wrap items-center text-sm font-bold text-slate-400 mb-10 space-x-2">
+        <div class="flex flex-wrap items-center text-sm font-bold text-white/70 mb-10 space-x-2">
             <a href="{{ route('home') }}" class="hover:text-white transition">Beranda</a>
             <span>/</span>
-            <span class="text-primary">Tentang Kami</span>
+            <span class="text-white font-black drop-shadow-sm">Tentang Kami</span>
         </div>
         
         <div class="mb-5">
-            <span class="bg-primary/20 border border-primary text-primary font-bold text-xs md:text-sm px-4 py-1.5 rounded-full uppercase tracking-wider">Profil Perusahaan</span>
+            <span class="bg-white/20 border border-white/40 text-white shadow-sm font-bold text-xs md:text-sm px-4 py-1.5 rounded-full uppercase tracking-wider">Profil Perusahaan</span>
         </div>
         <h1 class="text-4xl md:text-5xl lg:text-7xl font-black mb-4 tracking-tight drop-shadow-md">Membangun Hunian Mapan Untuk Masa Depan</h1>
-        <p class="text-slate-400 text-base md:text-lg max-w-2xl">Kami berdedikasi menciptakan kawasan lingkungan tempat tinggal yang tidak hanya nyaman untuk ditinggali, namun juga dirancang strategis menjadi instrumen investasi terbaik bagi masa depan berharga keluarga Anda.</p>
+        <p class="text-white/90 text-base md:text-lg max-w-2xl drop-shadow-sm">Kami berdedikasi menciptakan kawasan lingkungan tempat tinggal yang tidak hanya nyaman untuk ditinggali, namun juga dirancang strategis menjadi instrumen investasi terbaik bagi masa depan berharga keluarga Anda.</p>
     </div>
 </div>
 
