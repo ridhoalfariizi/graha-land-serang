@@ -15,8 +15,7 @@ return [
     | the connection which will be utilized unless another connection
     | is explicitly specified when you execute a query / statement.
     |
-    */
-    'default' => isset($_ENV['RAILWAY_ENVIRONMENT_NAME']) ? 'sqlite' : env('DB_CONNECTION', 'mysql'),
+    */    'default' => isset($_ENV['RAILWAY_ENVIRONMENT']) ? 'sqlite' : env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
