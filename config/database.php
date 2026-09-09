@@ -16,8 +16,7 @@ return [
     | is explicitly specified when you execute a query / statement.
     |
     */
-
-    'default' => isset($_ENV['RAILWAY_ENVIRONMENT_NAME']) ? 'mysql' : env('DB_CONNECTION', 'sqlite'),
+    'default' => isset($_ENV['RAILWAY_ENVIRONMENT_NAME']) ? 'sqlite' : env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
