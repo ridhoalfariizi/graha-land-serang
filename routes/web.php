@@ -12,6 +12,15 @@ Route::get('/init-db-77', function () {
     return 'Database Berhasil Disetup (Tabel & Akun Admin Terbuat)! Silakan <a href="/admin/login">Klik di sini untuk Login</a> menggunakan admin@ptbanaciptagraha.com / password';
 });
 
+
+// Route sementara untuk update data
+Route::get('/update-data-88', function () {
+    \App\Models\Setting::where('key', 'contact_phone')->update(['value' => '085111354108']);
+    \App\Models\Promo::where('title', 'Gratis Pompa Air')->delete();
+    \App\Models\Promo::where('title', 'Booking Fee Rp500.000')->update(['title' => 'Booking Fee Rp250.000']);
+    \App\Models\Faq::where('question', 'like', '%Booking Fee%')->update(['answer' => 'Booking Fee hanya Rp 250.000 saja sudah termasuk pengajuan KPR.']);
+    return 'Data berhasil diupdate! <a href="/">Lihat website</a>';
+});
 // Frontend Routes
 Route::get('/', [FrontendController::class, 'index'])->name('home');
 Route::get('/tentang-kami', [FrontendController::class, 'about'])->name('about');
