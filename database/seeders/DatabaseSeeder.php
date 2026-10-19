@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
         // 2. Initial Setup Settings (Key-Value)
         $settings = [
             ['key' => 'site_name', 'value' => 'Graha Land Serang'],
-            ['key' => 'contact_phone', 'value' => '085947418388'],
+            ['key' => 'contact_phone', 'value' => '085111354108'],
             ['key' => 'contact_email', 'value' => 'ptbanaciptagraha@gmail.com'],
             ['key' => 'contact_address', 'value' => 'Pengampelan, Kecamatan Walantaka, Kota Serang, Banten'],
             ['key' => 'hero_title', 'value' => 'Hunian Subsidi Modern Bernuansa Eropa di Kota Serang'],
@@ -52,8 +52,7 @@ class DatabaseSeeder extends Seeder
         Promo::create(['title' => 'DP 0%']);
         Promo::create(['title' => 'Gratis BPHTB']);
         Promo::create(['title' => 'Gratis Notaris']);
-        Promo::create(['title' => 'Gratis Pompa Air']);
-        Promo::create(['title' => 'Booking Fee Rp500.000']);
+        Promo::create(['title' => 'Booking Fee Rp250.000']);
 
         // 4. Setup House Type
         HouseType::create([
@@ -90,7 +89,7 @@ class DatabaseSeeder extends Seeder
         // 7. Setup FAQs
         Faq::create([
             'question' => 'Berapa Booking Fee untuk Graha Land Serang?',
-            'answer' => 'Booking Fee hanya Rp 500.000 saja sudah termasuk pengajuan KPR.',
+            'answer' => 'Booking Fee hanya Rp 250.000 saja sudah termasuk pengajuan KPR.',
             'sort_order' => 1
         ]);
     }

@@ -81,7 +81,7 @@
                             </div>
                             <div>
                                 <span class="block text-sm font-semibold text-slate-400 uppercase tracking-widest mb-1">Telepon / WhatsApp</span>
-                                <span class="text-xl font-bold">{{ $settings['contact_phone'] ?? '085947418388' }}</span>
+                                <span class="text-xl font-bold">{{ $settings['contact_phone'] ?? '085111354108' }}</span>
                             </div>
                         </li>
                     </ul>
