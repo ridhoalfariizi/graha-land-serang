@@ -15,7 +15,8 @@ Route::get('/init-db-77', function () {
 
 // Route sementara untuk update data
 Route::get('/update-data-88', function () {
-    \App\Models\Setting::where('key', 'contact_phone')->update(['value' => '085111354108']);
+    \App\Models\Setting::updateOrCreate(['key' => 'contact_phone'], ['value' => '085111354108', 'type' => 'string']);
+    \App\Models\Setting::updateOrCreate(['key' => 'whatsapp_number'], ['value' => '085111354108', 'type' => 'string']);
     \App\Models\Promo::where('title', 'Gratis Pompa Air')->delete();
     \App\Models\Promo::where('title', 'Booking Fee Rp500.000')->update(['title' => 'Booking Fee Rp250.000']);
     \App\Models\Faq::where('question', 'like', '%Booking Fee%')->update(['answer' => 'Booking Fee hanya Rp 250.000 saja sudah termasuk pengajuan KPR.']);

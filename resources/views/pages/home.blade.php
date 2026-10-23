@@ -54,7 +54,7 @@
         </p>
         
         <div class="flex flex-col sm:flex-row justify-center gap-4 mt-8 relative z-20">
-            <a href="https://wa.me/62{{ ltrim($settings['contact_phone'] ?? '85947418388', '0') }}" class="px-8 py-4 bg-primary text-white font-bold rounded-2xl hover:-translate-y-1 hover:shadow-2xl hover:shadow-primary/40 transition duration-300 flex items-center justify-center gap-3 text-lg lg:text-xl relative overflow-hidden group">
+            <a href="https://wa.me/62{{ ltrim($settings['contact_phone'] ?? '85111354108', '0') }}" class="px-8 py-4 bg-primary text-white font-bold rounded-2xl hover:-translate-y-1 hover:shadow-2xl hover:shadow-primary/40 transition duration-300 flex items-center justify-center gap-3 text-lg lg:text-xl relative overflow-hidden group">
                 <div class="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
                 <div class="bg-white text-primary w-8 h-8 rounded-full flex items-center justify-center shrink-0 relative z-10">
                     <svg class="w-5 h-5 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.898-4.45 9.896-9.896-.002-5.451-4.452-9.898-9.907-9.897-5.446 0-9.891 4.444-9.891 9.895 0 1.954.551 3.791 1.597 5.421l1.109 1.72-1.127 4.116 4.22-.112-1.289-2.839zm8.566-4.665c-.078-.13-.286-.207-.598-.363-.312-.156-1.848-.912-2.133-1.017-.286-.104-.495-.156-.704.156-.208.312-.806 1.017-.988 1.225-.182.208-.364.234-.676.078-.312-.156-1.319-.487-2.513-1.554-1.194-1.066-1.565-1.516-1.748-1.828-.182-.312-.02-.48.136-.636.155-.156.312-.363.468-.545.156-.182.208-.312.312-.52.104-.208.052-.39-.026-.546-.078-.156-.704-1.696-.964-2.32-.26-.624-.525-.536-.704-.546-.182-.01-.39-.01-.598-.01-.208 0-.546.078-.832.39-.286.312-1.092 1.066-1.092 2.6s1.118 3.016 1.274 3.224c.156.208 2.203 3.364 5.337 4.718 3.134 1.354 3.134.904 3.706.852.572-.052 1.848-.755 2.108-1.483.26-.728.26-1.354.182-1.483z"/></svg>
@@ -72,7 +72,7 @@
 @if($promos->count() > 0)
 <section id="promo" class="pt-10 pb-24 bg-white relative">
     <div class="max-w-7xl mx-auto px-4 xl:px-8 relative z-10 -mt-10 md:-mt-16">
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             @foreach($promos as $promo)
             <div class="bg-white/90 backdrop-blur-xl rounded-3xl p-5 shadow-[0_10px_40px_-10px_rgba(0,0,0,0.08)] border border-slate-100 flex flex-col items-center text-center gap-3 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(94,142,46,0.3)] transition-all duration-300 group">
                 <div class="w-14 h-14 bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-2xl flex items-center justify-center shrink-0 text-primary shadow-inner group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
@@ -494,7 +494,7 @@
         <h2 class="text-4xl md:text-5xl lg:text-7xl font-black text-white mb-8 leading-tight">Miliki Rumah Impian Anda Sekarang</h2>
         <p class="text-xl text-green-100 font-medium mb-10 max-w-2xl mx-auto">Tinggalkan rumah kontrakan, berikan hadiah terbaik untuk keluarga dengan mengamankan kavling di Graha Land.</p>
         <div class="flex flex-col sm:flex-row justify-center gap-4 mt-8">
-            <a href="https://wa.me/62{{ ltrim($settings['contact_phone'] ?? '85947418388', '0') }}" class="px-10 py-5 bg-white text-primary font-black rounded-2xl hover:scale-105 transition-transform duration-300 shadow-2xl flex items-center justify-center gap-2 text-xl">
+            <a href="https://wa.me/62{{ ltrim($settings['contact_phone'] ?? '85111354108', '0') }}" class="px-10 py-5 bg-white text-primary font-black rounded-2xl hover:scale-105 transition-transform duration-300 shadow-2xl flex items-center justify-center gap-2 text-xl">
                 Hubungi Marketing
             </a>
         </div>

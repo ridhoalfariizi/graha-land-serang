@@ -21,6 +21,7 @@ class DatabaseSeeder extends Seeder
         $settings = [
             ['key' => 'site_name', 'value' => 'Graha Land Serang'],
             ['key' => 'contact_phone', 'value' => '085111354108'],
+            ['key' => 'whatsapp_number', 'value' => '085111354108'],
             ['key' => 'contact_email', 'value' => 'ptbanaciptagraha@gmail.com'],
             ['key' => 'contact_address', 'value' => 'Pengampelan, Kecamatan Walantaka, Kota Serang, Banten'],
             ['key' => 'hero_title', 'value' => 'Hunian Subsidi Modern Bernuansa Eropa di Kota Serang'],

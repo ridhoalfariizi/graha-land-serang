@@ -55,9 +55,18 @@
                             <input type="text" name="site_name" value="{{ $settings['site_name'] ?? 'Graha Land Serang' }}" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary outline-none">
                         </div>
                         <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-2">Nomor Telepon / WhatsApp Kontak</label>
+                            <input type="text" name="contact_phone" value="{{ $settings['contact_phone'] ?? '085111354108' }}" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary outline-none">
+                            <p class="text-[10px] text-slate-500 mt-1">Format: 085111354108 (tampil di halaman kontak, footer, dan tombol WhatsApp)</p>
+                        </div>
+                        <div>
                             <label class="block text-sm font-bold text-slate-700 mb-2">Nomor WhatsApp Utama</label>
-                            <input type="text" name="whatsapp_number" value="{{ $settings['whatsapp_number'] ?? '6281234567890' }}" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary outline-none">
-                            <p class="text-[10px] text-slate-500 mt-1">Gunakan format 628... tanpa 0 atau +</p>
+                            <input type="text" name="whatsapp_number" value="{{ $settings['whatsapp_number'] ?? '085111354108' }}" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary outline-none">
+                            <p class="text-[10px] text-slate-500 mt-1">Gunakan format 0851... atau 62851...</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-2">Email Kontak Resmi</label>
+                            <input type="email" name="contact_email" value="{{ $settings['contact_email'] ?? 'ptbanaciptagraha@gmail.com' }}" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary outline-none">
                         </div>
                         <div>
                             <label class="block text-sm font-bold text-slate-700 mb-2">Pesan WhatsApp Default</label>

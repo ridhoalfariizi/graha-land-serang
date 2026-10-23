@@ -13,7 +13,7 @@
         </div>
         <h1 class="text-3xl font-black text-slate-800 mb-4">Sedang Dalam Perbaikan</h1>
         <p class="text-slate-600 mb-8">Website Graha Land Serang saat ini sedang dalam peningkatan sistem. Silakan kembali dalam beberapa saat.</p>
-        <a href="https://wa.me/6281234567890" class="inline-block bg-[#5E8E2E] text-white px-8 py-3 rounded-full font-bold shadow-lg hover:bg-[#3F6A1F] transition">Hubungi CS Kami</a>
+        <a href="https://wa.me/6285111354108" class="inline-block bg-[#5E8E2E] text-white px-8 py-3 rounded-full font-bold shadow-lg hover:bg-[#3F6A1F] transition">Hubungi CS Kami</a>
     </div>
 </body>
 </html>

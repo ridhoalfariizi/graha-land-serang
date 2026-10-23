@@ -81,14 +81,14 @@
                             </div>
                             <div>
                                 <span class="block text-sm font-semibold text-slate-400 uppercase tracking-widest mb-1">Telepon / WhatsApp</span>
-                                <span class="text-xl font-bold">{{ $settings['contact_phone'] ?? '085111354108' }}</span>
+                                <span class="text-xl font-bold">{{ $settings['contact_phone'] ?? '0851 1135 4108' }}</span>
                             </div>
                         </li>
                     </ul>
                 </div>
                 
                 <div class="mt-12 relative z-10">
-                    <a href="https://wa.me/62{{ ltrim($settings['contact_phone'] ?? '85947418388', '0') }}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 w-full py-4 bg-[#25D366] text-white font-bold rounded-2xl shadow-[0_8px_30px_rgb(37,211,102,0.3)] hover:scale-[1.02] hover:-translate-y-1 transition duration-300">
+                    <a href="https://wa.me/62{{ ltrim($settings['contact_phone'] ?? '85111354108', '0') }}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 w-full py-4 bg-[#25D366] text-white font-bold rounded-2xl shadow-[0_8px_30px_rgb(37,211,102,0.3)] hover:scale-[1.02] hover:-translate-y-1 transition duration-300">
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163...z"/></svg>
                         Hubungi via WhatsApp
                     </a>

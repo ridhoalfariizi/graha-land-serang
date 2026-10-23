@@ -181,7 +181,7 @@
                 <p class="text-xs text-slate-500 mb-8 px-4">
                     *Kalkulasi ini hanya sekadar simulasi dan estimasi kasar. Nilai sebenarnya bervariasi bergantung nilai suku bunga bank bersangkutan saat ini.
                 </p>
-                <a href="https://wa.me/62{{ ltrim($settings['contact_phone'] ?? '85947418388', '0') }}?text=Halo%20saya%20tertarik%20dengan%20Tipe%20{{ urlencode($house->name) }}%20dan%20ingin%20info%20KPR" target="_blank" class="w-full py-4 bg-accent text-secondary font-black rounded-xl hover:bg-yellow-400 transition shadow-lg shadow-yellow-500/20 text-lg uppercase tracking-wider block">
+                <a href="https://wa.me/62{{ ltrim($settings['contact_phone'] ?? '85111354108', '0') }}?text=Halo%20saya%20tertarik%20dengan%20Tipe%20{{ urlencode($house->name) }}%20dan%20ingin%20info%20KPR" target="_blank" class="w-full py-4 bg-accent text-secondary font-black rounded-xl hover:bg-yellow-400 transition shadow-lg shadow-yellow-500/20 text-lg uppercase tracking-wider block">
                     Ajukan KPR Sekarang
                 </a>
             </div>

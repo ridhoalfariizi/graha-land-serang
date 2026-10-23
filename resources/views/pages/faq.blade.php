@@ -46,7 +46,7 @@
         
         <div class="mt-16 text-center">
             <p class="text-slate-500 mb-4">Masih memiliki pertanyaan?</p>
-            <a href="https://wa.me/62{{ ltrim($settings['contact_phone'] ?? '85947418388', '0') }}" class="inline-flex items-center gap-2 px-6 py-3 bg-accent text-secondary font-bold rounded-xl hover:bg-yellow-400 transition shadow-lg shadow-yellow-500/20">
+            <a href="https://wa.me/62{{ ltrim($settings['contact_phone'] ?? '85111354108', '0') }}" class="inline-flex items-center gap-2 px-6 py-3 bg-accent text-secondary font-bold rounded-xl hover:bg-yellow-400 transition shadow-lg shadow-yellow-500/20">
                 Tanyakan pada Marketing
             </a>
         </div>

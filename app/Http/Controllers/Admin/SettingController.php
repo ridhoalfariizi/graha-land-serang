@@ -28,6 +28,17 @@ class SettingController extends Controller
 
         $data = $request->except(array_merge(['_token', '_method'], $fileFields));
         
+        if (isset($data['contact_phone']) && !isset($data['whatsapp_number'])) {
+            $data['whatsapp_number'] = $data['contact_phone'];
+        } elseif (isset($data['whatsapp_number']) && !isset($data['contact_phone'])) {
+            $data['contact_phone'] = $data['whatsapp_number'];
+        }
+        if (isset($data['company_address']) && !isset($data['contact_address'])) {
+            $data['contact_address'] = $data['company_address'];
+        } elseif (isset($data['contact_address']) && !isset($data['company_address'])) {
+            $data['company_address'] = $data['contact_address'];
+        }
+        
         foreach ($data as $key => $value) {
             $setting = Setting::firstOrCreate(['key' => $key]);
             
